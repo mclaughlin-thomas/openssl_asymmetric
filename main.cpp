@@ -1,6 +1,12 @@
 #include <iostream>
 #include "Caller.h"
 
+// sudo apt-get install libssl-dev
+
+//g++ -o rsa_caller main.cpp Caller.cpp -lssl -lcrypto
+// ./rsa_caller
+
+
 int main() {
     const int keyLength = 2048;
 
